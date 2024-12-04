@@ -71,6 +71,27 @@ body {
   color: #017cff;
 }
 
+.bttn {
+  background-color: #017cff;
+  color: white;
+  font-weight: 1000;
+  height: auto;
+  width: auto;
+  text-align: center;
+  display: inline-block;
+  font-size: 40px;
+  cursor: pointer;
+  border: none;
+  margin: 15px;
+  border-radius: 12px;
+  transition: background-color 0.3s ease;
+  box-shadow: 0 3px 3px black;
+}
+
+.bttn:hover {
+  background-color: #ffffff;
+  color: #017cff;
+}
 .gif_container {
   display: flex;
   justify-content: center;
